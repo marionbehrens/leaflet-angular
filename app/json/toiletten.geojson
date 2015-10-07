@@ -1,0 +1,1825 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.53519,
+          13.4867
+        ]
+      },
+      "properties": {
+        "title": "Alleecenter",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/2",
+        "description": "Landsberger Allee 277<br />13055 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/2\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/2",
+        "data": {
+          "id": "2",
+          "einrichtung": "Einkaufscentren",
+          "benennung": "Alleecenter",
+          "strasse": "Landsberger Allee 277",
+          "plz": "13055 Berlin",
+          "latitude": "52.53519",
+          "longitude": "13.4867",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.4973,
+          13.52146
+        ]
+      },
+      "properties": {
+        "title": "Center am Tierpark",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/4",
+        "description": "Otto-Schmirgal-Str. 1-7<br />10319 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/4\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/4",
+        "data": {
+          "id": "4",
+          "einrichtung": "Einkaufscentren",
+          "benennung": "Center am Tierpark",
+          "strasse": "Otto-Schmirgal-Str. 1-7",
+          "plz": "10319 Berlin",
+          "latitude": "52.4973",
+          "longitude": "13.52146",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5345116,
+          13.5048094
+        ]
+      },
+      "properties": {
+        "title": "Globus Baumarkt",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/6",
+        "description": "Landsberger Allee 360-362<br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/6\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/6",
+        "data": {
+          "id": "6",
+          "einrichtung": "Einkaufscentren",
+          "benennung": "Globus Baumarkt",
+          "strasse": "Landsberger Allee 360-362",
+          "plz": "10365 Berlin",
+          "latitude": "52.5345116",
+          "longitude": "13.5048094",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo-Sa 08:00-20:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5611,
+          13.50035
+        ]
+      },
+      "properties": {
+        "title": "Hansa Center",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/8",
+        "description": "Hansastr. 246<br />13051 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/8\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/8",
+        "data": {
+          "id": "8",
+          "einrichtung": "Einkaufscentren",
+          "benennung": "Hansa Center",
+          "strasse": "Hansastr. 246",
+          "plz": "13051 Berlin",
+          "latitude": "52.5611",
+          "longitude": "13.50035",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.54382,
+          13.5085
+        ]
+      },
+      "properties": {
+        "title": "Hellweg Baumarkt",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/10",
+        "description": "Ferdinand-Schultze-Str. 106<br />13055 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/10\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/10",
+        "data": {
+          "id": "10",
+          "einrichtung": "Einkaufscentren",
+          "benennung": "Hellweg Baumarkt",
+          "strasse": "Ferdinand-Schultze-Str. 106",
+          "plz": "13055 Berlin",
+          "latitude": "52.54382",
+          "longitude": "13.5085",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5345123,
+          13.5137439
+        ]
+      },
+      "properties": {
+        "title": "IKEA",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/12",
+        "description": "Landsberger Allee 364<br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/12\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/12",
+        "data": {
+          "id": "12",
+          "einrichtung": "Einkaufscentren",
+          "benennung": "IKEA",
+          "strasse": "Landsberger Allee 364",
+          "plz": "10365 Berlin",
+          "latitude": "52.5345123",
+          "longitude": "13.5137439",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo-Sa 10:00-21:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5038482,
+          13.4734806
+        ]
+      },
+      "properties": {
+        "title": "Mehrerer Einträge...",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/14",
+        "description": "<strong>Kaufland im Victoria-Center</strong><br />Marktstr. 6<br />10317 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/14\">Mehr...</a><br /><br /><strong>Victoria Center </strong><br />Marktstr. 6 <br />10317 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/22\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/14",
+        "data": {
+          "id": "14",
+          "einrichtung": "Einkaufscentren",
+          "benennung": "Kaufland im Victoria-Center",
+          "strasse": "Marktstr. 6",
+          "plz": "10317 Berlin",
+          "latitude": "52.5038482",
+          "longitude": "13.4734806",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo-Sa 07:00-22:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5482942,
+          13.504684
+        ]
+      },
+      "properties": {
+        "title": "Kaufland im Storchenhof-Center",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/16",
+        "description": "Hauptstr. 9-10<br />13055 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/16\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/16",
+        "data": {
+          "id": "16",
+          "einrichtung": "Einkaufscentren",
+          "benennung": "Kaufland im Storchenhof-Center",
+          "strasse": "Hauptstr. 9-10",
+          "plz": "13055 Berlin",
+          "latitude": "52.5482942",
+          "longitude": "13.504684",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo-Sa: 07-22 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5641484,
+          13.5056793
+        ]
+      },
+      "properties": {
+        "title": "Lindencenter",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/18",
+        "description": "Prerower Platz 1<br />13051 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/18\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/18",
+        "data": {
+          "id": "18",
+          "einrichtung": "Einkaufscentren",
+          "benennung": "Lindencenter",
+          "strasse": "Prerower Platz 1",
+          "plz": "13051 Berlin",
+          "latitude": "52.5641484",
+          "longitude": "13.5056793",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5242142,
+          13.4800064
+        ]
+      },
+      "properties": {
+        "title": "Möllendorff Passage Lichtenberg",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/20",
+        "description": "Möllendorffstr. 47 <br />10367 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/20\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/20",
+        "data": {
+          "id": "20",
+          "einrichtung": "Einkaufscentren",
+          "benennung": "Möllendorff Passage Lichtenberg",
+          "strasse": "Möllendorffstr. 47 ",
+          "plz": "10367 Berlin",
+          "latitude": "52.5242142",
+          "longitude": "13.4800064",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5650537,
+          13.5061303
+        ]
+      },
+      "properties": {
+        "title": "Anna-Seghers-Bibiothek",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/24",
+        "description": "Prerower Platz 2<br />13051 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/24\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/24",
+        "data": {
+          "id": "24",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Anna-Seghers-Bibiothek",
+          "strasse": "Prerower Platz 2",
+          "plz": "13051 Berlin",
+          "latitude": "52.5650537",
+          "longitude": "13.5061303",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo, Di, Do, Fr 09:00-20:00 Uhr / Mi 13:00-20:00 Uhr / Sa 09:00-16:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.53066,
+          13.47082
+        ]
+      },
+      "properties": {
+        "title": "Anton-Saefkow-Bibliothek",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/26",
+        "description": "Anton-Saefkow-Platz 14<br />10369 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/26\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/26",
+        "data": {
+          "id": "26",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Anton-Saefkow-Bibliothek",
+          "strasse": "Anton-Saefkow-Platz 14",
+          "plz": "10369 Berlin",
+          "latitude": "52.53066",
+          "longitude": "13.47082",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo, Di, Do, Fr 09:00-19:00 Uhr / Mi 13:00-19:00 Uhr / Sa 09:00-15:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5453009,
+          13.5002364
+        ]
+      },
+      "properties": {
+        "title": "Bezirksamt Lichtenberg - Dienstgebäude",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/28",
+        "description": "Große-Leege-Str. 103<br />13055 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/28\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/28",
+        "data": {
+          "id": "28",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Bezirksamt Lichtenberg - Dienstgebäude",
+          "strasse": "Große-Leege-Str. 103",
+          "plz": "13055 Berlin",
+          "latitude": "52.5453009",
+          "longitude": "13.5002364",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo-Fr 08:00-18:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5674828,
+          13.5140812
+        ]
+      },
+      "properties": {
+        "title": "Bezirksamt Lichtenberg - Dienstgebäude",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/30",
+        "description": "Egon-Erwin-Kisch-Str. 106<br />13059 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/30\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/30",
+        "data": {
+          "id": "30",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Bezirksamt Lichtenberg - Dienstgebäude",
+          "strasse": "Egon-Erwin-Kisch-Str. 106",
+          "plz": "13059 Berlin",
+          "latitude": "52.5674828",
+          "longitude": "13.5140812",
+          "benutzung": "kostenlos ",
+          "oeffnungszeiten": "Mo-Fr 08:00-18:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5075187,
+          13.5253492
+        ]
+      },
+      "properties": {
+        "title": "Bezirksamt Lichtenberg - Dienstgebäude",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/32",
+        "description": "Alt-Friedrichsfelde 60<br />10315 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/32\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/32",
+        "data": {
+          "id": "32",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Bezirksamt Lichtenberg - Dienstgebäude",
+          "strasse": "Alt-Friedrichsfelde 60",
+          "plz": "10315 Berlin",
+          "latitude": "52.5075187",
+          "longitude": "13.5253492",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo-Fr 08:00-18:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.4976748,
+          13.5202894
+        ]
+      },
+      "properties": {
+        "title": "Bodo-Uhse-Bibliothek",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/34",
+        "description": "Erich-Kurz-Str. 9<br />10319 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/34\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/34",
+        "data": {
+          "id": "34",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Bodo-Uhse-Bibliothek",
+          "strasse": "Erich-Kurz-Str. 9",
+          "plz": "10319 Berlin",
+          "latitude": "52.4976748",
+          "longitude": "13.5202894",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo, Di, Do, Fr 09:00-19:00 Uhr / Mi 13:00-19:00 Uhr / Sa 09:00-15:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5160989,
+          13.4804262
+        ]
+      },
+      "properties": {
+        "title": "Bürgeramt 2",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/36",
+        "description": "Normannenstr. 1-2<br />10367 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/36\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/36",
+        "data": {
+          "id": "36",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Bürgeramt 2",
+          "strasse": "Normannenstr. 1-2",
+          "plz": "10367 Berlin",
+          "latitude": "52.5160989",
+          "longitude": "13.4804262",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.49729,
+          13.5222817
+        ]
+      },
+      "properties": {
+        "title": "Bürgeramt 3 im Center am Tierpark",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/38",
+        "description": "Otto-Schmirgal-Str. 1<br />10319 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/38\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/38",
+        "data": {
+          "id": "38",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Bürgeramt 3 im Center am Tierpark",
+          "strasse": "Otto-Schmirgal-Str. 1",
+          "plz": "10319 Berlin",
+          "latitude": "52.49729",
+          "longitude": "13.5222817",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5134578,
+          13.4805884
+        ]
+      },
+      "properties": {
+        "title": "Egon-Erwin-Kisch-Bibliothek",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/40",
+        "description": "Frankfurter Allee 149<br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/40\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/40",
+        "data": {
+          "id": "40",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Egon-Erwin-Kisch-Bibliothek",
+          "strasse": "Frankfurter Allee 149",
+          "plz": "10365 Berlin",
+          "latitude": "52.5134578",
+          "longitude": "13.4805884",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo, Di, Do, Fr 09:00-19:00 Uhr / Mi 13:00-19:00 Uhr / Sa 09:00-15:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5743903,
+          13.4829905
+        ]
+      },
+      "properties": {
+        "title": "Förderverein Naturschutzstation Malchow e.V. ",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/42",
+        "description": "Dorfstr. 35<br />13051 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/42\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/42",
+        "data": {
+          "id": "42",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Förderverein Naturschutzstation Malchow e.V. ",
+          "strasse": "Dorfstr. 35",
+          "plz": "13051 Berlin",
+          "latitude": "52.5743903",
+          "longitude": "13.4829905",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.541767,
+          13.4882801
+        ]
+      },
+      "properties": {
+        "title": "Galerie 100",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/44",
+        "description": "Konrad-Wolf-Str. 99<br />13055 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/44\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/44",
+        "data": {
+          "id": "44",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Galerie 100",
+          "strasse": "Konrad-Wolf-Str. 99",
+          "plz": "13055 Berlin",
+          "latitude": "52.541767",
+          "longitude": "13.4882801",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Di-Fr 10:00-18:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5698157,
+          13.5117511
+        ]
+      },
+      "properties": {
+        "title": "Jugendkunstschule",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/46",
+        "description": "Demminer Str. 4<br />13059 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/46\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/46",
+        "data": {
+          "id": "46",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Jugendkunstschule",
+          "strasse": "Demminer Str. 4",
+          "plz": "13059 Berlin",
+          "latitude": "52.5698157",
+          "longitude": "13.5117511",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.51129,
+          13.50238
+        ]
+      },
+      "properties": {
+        "title": "Keramikatelier Lichtenberg",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/48",
+        "description": "Frankfurter Allee 203 <br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/48\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/48",
+        "data": {
+          "id": "48",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Keramikatelier Lichtenberg",
+          "strasse": "Frankfurter Allee 203 ",
+          "plz": "10365 Berlin",
+          "latitude": "52.51129",
+          "longitude": "13.50238",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.508046,
+          13.480031
+        ]
+      },
+      "properties": {
+        "title": "Kiezspinne FAS - Nachbarschaftlicher Interessenverbund e.V. (Stadtteilzentrum)",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/50",
+        "description": "Schulze-Boysen-Str. 38<br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/50\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/50",
+        "data": {
+          "id": "50",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Kiezspinne FAS - Nachbarschaftlicher Interessenverbund e.V. (Stadtteilzentrum)",
+          "strasse": "Schulze-Boysen-Str. 38",
+          "plz": "10365 Berlin",
+          "latitude": "52.508046",
+          "longitude": "13.480031",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.4819739,
+          13.5250039
+        ]
+      },
+      "properties": {
+        "title": "Kulturhaus Karlshorst",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/52",
+        "description": "Trekowallee 112<br />10318 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/52\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/52",
+        "data": {
+          "id": "52",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Kulturhaus Karlshorst",
+          "strasse": "Trekowallee 112",
+          "plz": "10318 Berlin",
+          "latitude": "52.4819739",
+          "longitude": "13.5250039",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5677681,
+          13.4983932
+        ]
+      },
+      "properties": {
+        "title": "kunst- und literaturwerkstatt - studio im hochhaus",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/54",
+        "description": "Zingster Str. 25<br />13051 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/54\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/54",
+        "data": {
+          "id": "54",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "kunst- und literaturwerkstatt - studio im hochhaus",
+          "strasse": "Zingster Str. 25",
+          "plz": "13051 Berlin",
+          "latitude": "52.5677681",
+          "longitude": "13.4983932",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo-Do 11:00-19:00 Uhr / Fr 11:00-16:00 Uhr / So 14:00-18:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.56938,
+          13.51708
+        ]
+      },
+      "properties": {
+        "title": "Lebensmut e.V. - Verein für Dialog und selbstbestimmte Lebensgestaltung",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/56",
+        "description": "Grevesmühlener Str. 24<br />13059 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/56\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/56",
+        "data": {
+          "id": "56",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Lebensmut e.V. - Verein für Dialog und selbstbestimmte Lebensgestaltung",
+          "strasse": "Grevesmühlener Str. 24",
+          "plz": "13059 Berlin",
+          "latitude": "52.56938",
+          "longitude": "13.51708",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5285,
+          13.47802
+        ]
+      },
+      "properties": {
+        "title": "Margarete-Steffin-Volkshochschule ",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/58",
+        "description": "Paul-Junius-Str. 71<br />10369 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/58\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/58",
+        "data": {
+          "id": "58",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Margarete-Steffin-Volkshochschule ",
+          "strasse": "Paul-Junius-Str. 71",
+          "plz": "10369 Berlin",
+          "latitude": "52.5285",
+          "longitude": "13.47802",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5493452,
+          13.4907712
+        ]
+      },
+      "properties": {
+        "title": "Mies-van-der-Rohe-Haus",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/60",
+        "description": "Oberseestr. 60<br />13053 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/60\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/60",
+        "data": {
+          "id": "60",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Mies-van-der-Rohe-Haus",
+          "strasse": "Oberseestr. 60",
+          "plz": "13053 Berlin",
+          "latitude": "52.5493452",
+          "longitude": "13.4907712",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Di-So 11:00-17:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.50303,
+          13.4808
+        ]
+      },
+      "properties": {
+        "title": "Museum Lichtenberg",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/62",
+        "description": "Türrschmidtstr. 24<br />10317 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/62\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/62",
+        "data": {
+          "id": "62",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Museum Lichtenberg",
+          "strasse": "Türrschmidtstr. 24",
+          "plz": "10317 Berlin",
+          "latitude": "52.50303",
+          "longitude": "13.4808",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Di-Fr 11:00-18:00 Uhr / So 11:00-18:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.49874,
+          13.50216
+        ]
+      },
+      "properties": {
+        "title": "Nachbarschaftshaus Friedrichsfelde-Süd KULTSchule",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/64",
+        "description": "Sewanstr. 43<br />10319 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/64\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/64",
+        "data": {
+          "id": "64",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Nachbarschaftshaus Friedrichsfelde-Süd KULTSchule",
+          "strasse": "Sewanstr. 43",
+          "plz": "10319 Berlin",
+          "latitude": "52.49874",
+          "longitude": "13.50216",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5159184,
+          13.4795724
+        ]
+      },
+      "properties": {
+        "title": "Rathaus Lichtenberg",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/66",
+        "description": "Möllendorffstr. 6 <br />10367 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/66\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/66",
+        "data": {
+          "id": "66",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Rathaus Lichtenberg",
+          "strasse": "Möllendorffstr. 6 ",
+          "plz": "10367 Berlin",
+          "latitude": "52.5159184",
+          "longitude": "13.4795724",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo-Fr 06:30-21:30 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5264811,
+          13.4773448
+        ]
+      },
+      "properties": {
+        "title": "RBO Haus der Generationen",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/68",
+        "description": "Paul-Junius-Str. 64A und 64B<br />10367 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/68\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/68",
+        "data": {
+          "id": "68",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "RBO Haus der Generationen",
+          "strasse": "Paul-Junius-Str. 64A und 64B",
+          "plz": "10367 Berlin",
+          "latitude": "52.5264811",
+          "longitude": "13.4773448",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.50722,
+          13.49963
+        ]
+      },
+      "properties": {
+        "title": "Stadtteilzentrum Lichtenberg Mitte",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/70",
+        "description": "Margaretenstr. 11<br />10317 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/70\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/70",
+        "data": {
+          "id": "70",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Stadtteilzentrum Lichtenberg Mitte",
+          "strasse": "Margaretenstr. 11",
+          "plz": "10317 Berlin",
+          "latitude": "52.50722",
+          "longitude": "13.49963",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.4812,
+          13.52273
+        ]
+      },
+      "properties": {
+        "title": "Stadtteilzentrum Lichtenberg Süd iKARUS",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/72",
+        "description": "Wandlitzstr. 13<br />10319 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/72\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/72",
+        "data": {
+          "id": "72",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Stadtteilzentrum Lichtenberg Süd iKARUS",
+          "strasse": "Wandlitzstr. 13",
+          "plz": "10319 Berlin",
+          "latitude": "52.4812",
+          "longitude": "13.52273",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.52476,
+          13.48057
+        ]
+      },
+      "properties": {
+        "title": "UNIONHILFSWERK Sozialeinrichtungen gemeinnützige GmbH (Stadtteilzentrum)",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/74",
+        "description": "Paul-Zobel-Str. 8E<br />10367 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/74\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/74",
+        "data": {
+          "id": "74",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "UNIONHILFSWERK Sozialeinrichtungen gemeinnützige GmbH (Stadtteilzentrum)",
+          "strasse": "Paul-Zobel-Str. 8E",
+          "plz": "10367 Berlin",
+          "latitude": "52.52476",
+          "longitude": "13.48057",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.57217,
+          13.50297
+        ]
+      },
+      "properties": {
+        "title": "Verein für ambulante Versorgung e.V. - Nachbarschaftshaus im Ostseeviertel",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/76",
+        "description": "Ribnitzer Str. 1B<br />13059 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/76\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/76",
+        "data": {
+          "id": "76",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Verein für ambulante Versorgung e.V. - Nachbarschaftshaus im Ostseeviertel",
+          "strasse": "Ribnitzer Str. 1B",
+          "plz": "13059 Berlin",
+          "latitude": "52.57217",
+          "longitude": "13.50297",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.54674,
+          13.49471
+        ]
+      },
+      "properties": {
+        "title": "Vitanas Senioren Centrum Am Obersee",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/78",
+        "description": "Degner Str. 11<br />13053 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/78\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/78",
+        "data": {
+          "id": "78",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Vitanas Senioren Centrum Am Obersee",
+          "strasse": "Degner Str. 11",
+          "plz": "13053 Berlin",
+          "latitude": "52.54674",
+          "longitude": "13.49471",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "Mo-So 08:00-18:00 Uhr",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.56724,
+          13.51858
+        ]
+      },
+      "properties": {
+        "title": "Bürgerbüro Danny Freymark MdA",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/80",
+        "description": "Warnitzer Str. 16<br />13057 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/80\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/80",
+        "data": {
+          "id": "80",
+          "einrichtung": "Öffentliche Einrichtung",
+          "benennung": "Bürgerbüro Danny Freymark MdA",
+          "strasse": "Warnitzer Str. 16",
+          "plz": "13057 Berlin",
+          "latitude": "52.56724",
+          "longitude": "13.51858",
+          "benutzung": "kostenlos",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": "nein"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5094112,
+          13.4971634
+        ]
+      },
+      "properties": {
+        "title": "Bahnhof Lichtenberg - WC-Center",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/82",
+        "description": "Weitlingstraße 22<br />10317 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/82\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/82",
+        "data": {
+          "id": "82",
+          "einrichtung": "Sonstige Toiletten",
+          "benennung": "Bahnhof Lichtenberg - WC-Center",
+          "strasse": "Weitlingstraße 22",
+          "plz": "10317 Berlin",
+          "latitude": "52.5094112",
+          "longitude": "13.4971634",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.49566,
+          13.48103
+        ]
+      },
+      "properties": {
+        "title": "ECO-Toilette Rummelsburger Bucht ",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/84",
+        "description": "Rummelsburger Bucht gegenüber 24-Stunden-Anleger, Paul und Paula Ufer <br />10317 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/84\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/84",
+        "data": {
+          "id": "84",
+          "einrichtung": "Sonstige Toiletten",
+          "benennung": "ECO-Toilette Rummelsburger Bucht ",
+          "strasse": "Rummelsburger Bucht gegenüber 24-Stunden-Anleger, Paul und Paula Ufer ",
+          "plz": "10317 Berlin",
+          "latitude": "52.49566",
+          "longitude": "13.48103",
+          "benutzung": "kostenlos ",
+          "oeffnungszeiten": "Frühjahr bis Herbst durchgehend geöffnet",
+          "barrierefreiheit": "nein"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.511525,
+          13.4937921
+        ]
+      },
+      "properties": {
+        "title": "Aral Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/86",
+        "description": "Frankfurter Allee 214<br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/86\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/86",
+        "data": {
+          "id": "86",
+          "einrichtung": "Tankstellen",
+          "benennung": "Aral Tankstelle",
+          "strasse": "Frankfurter Allee 214",
+          "plz": "10365 Berlin",
+          "latitude": "52.511525",
+          "longitude": "13.4937921",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.54289,
+          13.4693
+        ]
+      },
+      "properties": {
+        "title": "ESSO Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/88",
+        "description": "Indira-Gandhi-Str. 75<br />13053 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/88\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/88",
+        "data": {
+          "id": "88",
+          "einrichtung": "Tankstellen",
+          "benennung": "ESSO Tankstelle",
+          "strasse": "Indira-Gandhi-Str. 75",
+          "plz": "13053 Berlin",
+          "latitude": "52.54289",
+          "longitude": "13.4693",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.48605,
+          13.35537
+        ]
+      },
+      "properties": {
+        "title": "Jet Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/90",
+        "description": "Hauptstr. 23<br />13055 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/90\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/90",
+        "data": {
+          "id": "90",
+          "einrichtung": "Tankstellen",
+          "benennung": "Jet Tankstelle",
+          "strasse": "Hauptstr. 23",
+          "plz": "13055 Berlin",
+          "latitude": "52.48605",
+          "longitude": "13.35537",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.4949323,
+          13.524443
+        ]
+      },
+      "properties": {
+        "title": "Jet Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/92",
+        "description": "Am Tierpark 126<br />10319 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/92\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/92",
+        "data": {
+          "id": "92",
+          "einrichtung": "Tankstellen",
+          "benennung": "Jet Tankstelle",
+          "strasse": "Am Tierpark 126",
+          "plz": "10319 Berlin",
+          "latitude": "52.4949323",
+          "longitude": "13.524443",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.52636,
+          13.48978
+        ]
+      },
+      "properties": {
+        "title": "Jet Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/94",
+        "description": "Herzbergstr. 27<br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/94\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/94",
+        "data": {
+          "id": "94",
+          "einrichtung": "Tankstellen",
+          "benennung": "Jet Tankstelle",
+          "strasse": "Herzbergstr. 27",
+          "plz": "10365 Berlin",
+          "latitude": "52.52636",
+          "longitude": "13.48978",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.52142,
+          13.49892
+        ]
+      },
+      "properties": {
+        "title": "Jet Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/96",
+        "description": "Siegfriedstr. 179<br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/96\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/96",
+        "data": {
+          "id": "96",
+          "einrichtung": "Tankstellen",
+          "benennung": "Jet Tankstelle",
+          "strasse": "Siegfriedstr. 179",
+          "plz": "10365 Berlin",
+          "latitude": "52.52142",
+          "longitude": "13.49892",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5071893,
+          13.4859496
+        ]
+      },
+      "properties": {
+        "title": "Shell Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/98",
+        "description": "Buchberger Str. 30<br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/98\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/98",
+        "data": {
+          "id": "98",
+          "einrichtung": "Tankstellen",
+          "benennung": "Shell Tankstelle",
+          "strasse": "Buchberger Str. 30",
+          "plz": "10365 Berlin",
+          "latitude": "52.5071893",
+          "longitude": "13.4859496",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.550895,
+          13.5139881
+        ]
+      },
+      "properties": {
+        "title": "Star Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/100",
+        "description": "Gehrenseestr. 10<br />13053 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/100\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/100",
+        "data": {
+          "id": "100",
+          "einrichtung": "Tankstellen",
+          "benennung": "Star Tankstelle",
+          "strasse": "Gehrenseestr. 10",
+          "plz": "13053 Berlin",
+          "latitude": "52.550895",
+          "longitude": "13.5139881",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5599391,
+          13.4964819
+        ]
+      },
+      "properties": {
+        "title": "Star Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/102",
+        "description": "Hansastr. 220<br />13051 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/102\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/102",
+        "data": {
+          "id": "102",
+          "einrichtung": "Tankstellen",
+          "benennung": "Star Tankstelle",
+          "strasse": "Hansastr. 220",
+          "plz": "13051 Berlin",
+          "latitude": "52.5599391",
+          "longitude": "13.4964819",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.52435,
+          13.49905
+        ]
+      },
+      "properties": {
+        "title": "Star Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/104",
+        "description": "Siegfriedstr. 170<br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/104\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/104",
+        "data": {
+          "id": "104",
+          "einrichtung": "Tankstellen",
+          "benennung": "Star Tankstelle",
+          "strasse": "Siegfriedstr. 170",
+          "plz": "10365 Berlin",
+          "latitude": "52.52435",
+          "longitude": "13.49905",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.55716,
+          13.5273
+        ]
+      },
+      "properties": {
+        "title": "Sun Petrol  Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/106",
+        "description": "Pablo-Picasso-Str. 50<br />13057 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/106\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/106",
+        "data": {
+          "id": "106",
+          "einrichtung": "Tankstellen",
+          "benennung": "Sun Petrol  Tankstelle",
+          "strasse": "Pablo-Picasso-Str. 50",
+          "plz": "13057 Berlin",
+          "latitude": "52.55716",
+          "longitude": "13.5273",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5099378,
+          13.5315098
+        ]
+      },
+      "properties": {
+        "title": "Tamoil Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/108",
+        "description": "Alt-Friedrichsfelde 61<br />10315 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/108\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/108",
+        "data": {
+          "id": "108",
+          "einrichtung": "Tankstellen",
+          "benennung": "Tamoil Tankstelle",
+          "strasse": "Alt-Friedrichsfelde 61",
+          "plz": "10315 Berlin",
+          "latitude": "52.5099378",
+          "longitude": "13.5315098",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.54746,
+          13.4678
+        ]
+      },
+      "properties": {
+        "title": "Total Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/110",
+        "description": "Indira-Gandhi-Str. 106<br />13053 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/110\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/110",
+        "data": {
+          "id": "110",
+          "einrichtung": "Tankstellen",
+          "benennung": "Total Tankstelle",
+          "strasse": "Indira-Gandhi-Str. 106",
+          "plz": "13053 Berlin",
+          "latitude": "52.54746",
+          "longitude": "13.4678",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.53664,
+          13.51546
+        ]
+      },
+      "properties": {
+        "title": "Total Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/112",
+        "description": "Rhinstr. 175<br />13053 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/112\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/112",
+        "data": {
+          "id": "112",
+          "einrichtung": "Tankstellen",
+          "benennung": "Total Tankstelle",
+          "strasse": "Rhinstr. 175",
+          "plz": "13053 Berlin",
+          "latitude": "52.53664",
+          "longitude": "13.51546",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.56568,
+          13.49155
+        ]
+      },
+      "properties": {
+        "title": "Total Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/114",
+        "description": "Ribnitzer Str. 42<br />13051 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/114\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/114",
+        "data": {
+          "id": "114",
+          "einrichtung": "Tankstellen",
+          "benennung": "Total Tankstelle",
+          "strasse": "Ribnitzer Str. 42",
+          "plz": "13051 Berlin",
+          "latitude": "52.56568",
+          "longitude": "13.49155",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.52749,
+          13.45763
+        ]
+      },
+      "properties": {
+        "title": "Total Tankstelle",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/116",
+        "description": "Storkower Str. 174<br />10369 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/116\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/116",
+        "data": {
+          "id": "116",
+          "einrichtung": "Tankstellen",
+          "benennung": "Total Tankstelle",
+          "strasse": "Storkower Str. 174",
+          "plz": "10369 Berlin",
+          "latitude": "52.52749",
+          "longitude": "13.45763",
+          "benutzung": "auf Nachfrage",
+          "oeffnungszeiten": "während der Öffnungszeiten",
+          "barrierefreiheit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.54556,
+          13.4942
+        ]
+      },
+      "properties": {
+        "title": "WALL-Citytoilette",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/118",
+        "description": "Parkplatz Degnerstraße Ecke Waldowstraße<br />13053 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/118\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/118",
+        "data": {
+          "id": "118",
+          "einrichtung": "WALL-Citytoiletten",
+          "benennung": "WALL-Citytoilette",
+          "strasse": "Parkplatz Degnerstraße Ecke Waldowstraße",
+          "plz": "13053 Berlin",
+          "latitude": "52.54556",
+          "longitude": "13.4942",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.57331,
+          13.5047
+        ]
+      },
+      "properties": {
+        "title": "WALL-Citytoilette",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/120",
+        "description": "Vorplatz S-Bahnhof Wartenberg - Ausgang Egon-Erwin-Kisch-Straße<br />13059 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/120\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/120",
+        "data": {
+          "id": "120",
+          "einrichtung": "WALL-Citytoiletten",
+          "benennung": "WALL-Citytoilette",
+          "strasse": "Vorplatz S-Bahnhof Wartenberg - Ausgang Egon-Erwin-Kisch-Straße",
+          "plz": "13059 Berlin",
+          "latitude": "52.57331",
+          "longitude": "13.5047",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.531,
+          13.47069
+        ]
+      },
+      "properties": {
+        "title": "WALL-Citytoilette",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/122",
+        "description": "Anton-Saefkow-Platz - Treppenabgang Sparkasse<br />10369 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/122\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/122",
+        "data": {
+          "id": "122",
+          "einrichtung": "WALL-Citytoiletten",
+          "benennung": "WALL-Citytoilette",
+          "strasse": "Anton-Saefkow-Platz - Treppenabgang Sparkasse",
+          "plz": "10369 Berlin",
+          "latitude": "52.531",
+          "longitude": "13.47069",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.51899,
+          13.47957
+        ]
+      },
+      "properties": {
+        "title": "WALL-Citytoilette",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/124",
+        "description": "Stadtpark - Kielblockstraße Ecke Möllendorffstraße<br />10367 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/124\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/124",
+        "data": {
+          "id": "124",
+          "einrichtung": "WALL-Citytoiletten",
+          "benennung": "WALL-Citytoilette",
+          "strasse": "Stadtpark - Kielblockstraße Ecke Möllendorffstraße",
+          "plz": "10367 Berlin",
+          "latitude": "52.51899",
+          "longitude": "13.47957",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.51316,
+          13.47691
+        ]
+      },
+      "properties": {
+        "title": "WALL-Citytoilette",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/126",
+        "description": "Gürtelstraße Ecke Frankfurter Allee<br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/126\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/126",
+        "data": {
+          "id": "126",
+          "einrichtung": "WALL-Citytoiletten",
+          "benennung": "WALL-Citytoilette",
+          "strasse": "Gürtelstraße Ecke Frankfurter Allee",
+          "plz": "10365 Berlin",
+          "latitude": "52.51316",
+          "longitude": "13.47691",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.51505,
+          13.50881
+        ]
+      },
+      "properties": {
+        "title": "WALL-Citytoilette",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/128",
+        "description": "Zugang Zentralfriedhof - Rüdigerstraße<br />10365 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/128\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/128",
+        "data": {
+          "id": "128",
+          "einrichtung": "WALL-Citytoiletten",
+          "benennung": "WALL-Citytoilette",
+          "strasse": "Zugang Zentralfriedhof - Rüdigerstraße",
+          "plz": "10365 Berlin",
+          "latitude": "52.51505",
+          "longitude": "13.50881",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.51101,
+          13.49979
+        ]
+      },
+      "properties": {
+        "title": "WALL-Citytoilette",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/130",
+        "description": "Bahnhof Lichtenberg - Einbecker Straße Ecke Weitlingstraße<br />10317 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/130\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/130",
+        "data": {
+          "id": "130",
+          "einrichtung": "WALL-Citytoiletten",
+          "benennung": "WALL-Citytoilette",
+          "strasse": "Bahnhof Lichtenberg - Einbecker Straße Ecke Weitlingstraße",
+          "plz": "10317 Berlin",
+          "latitude": "52.51101",
+          "longitude": "13.49979",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "",
+          "barrierefreiheit": "ja"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.4813,
+          13.52601
+        ]
+      },
+      "properties": {
+        "title": "WALL-Citytoilette",
+        "href": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/132",
+        "description": "Bahnhof Karlshorst - Stolzenfelsstraße<br />10318 Berlin<br /> <a href=\"http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/132\">Mehr...</a>",
+        "id": "http://www.berlin.de/ba-lichtenberg/auf-einen-blick/wirtschaft/toiletten/index.php/detail/132",
+        "data": {
+          "id": "132",
+          "einrichtung": "WALL-Citytoiletten",
+          "benennung": "WALL-Citytoilette",
+          "strasse": "Bahnhof Karlshorst - Stolzenfelsstraße",
+          "plz": "10318 Berlin",
+          "latitude": "52.4813",
+          "longitude": "13.52601",
+          "benutzung": "kostenpflichtig",
+          "oeffnungszeiten": "",
+          "barrierefreiheit": "ja"
+        }
+      }
+    }
+  ]
+}
