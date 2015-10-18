@@ -15,6 +15,7 @@
     <script src="./bower_components/webgl-heatmap-leaflet/js/webgl-heatmap-leaflet.js"></script>
 
     <script src="./js/controller.js"></script>
+    <script src="./js/wanderungen.js"></script>
 
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css"></link>
     <style>
@@ -32,7 +33,12 @@
   </head>
     <body>
 	<div ng-controller="LeafletController">
-      	    <leaflet center="berlin" layers="layers" markers="markers" paths="paths"></leaflet>
+      	   
+        <leaflet center="berlin" layers="layers" markers="markers" paths="paths"></leaflet>
+
+        <ul>
+            <li><strong ng-bind="eventDetected"></strong> event caught in listener.</li>
+        </ul>
 	</div>
     </body>
 </html>

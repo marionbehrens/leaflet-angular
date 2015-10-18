@@ -1,6 +1,6 @@
-var app = angular.module('leafletApp', ["leaflet-directive"]);    // ["leaflet-directive"] <script src="../../angular-simple-logger-master/dist/index.js"></script> 
+var app = angular.module('leafletApp', ['leaflet-directive', 'wanderungen-service']);    // ["leaflet-directive"] <script src="../../angular-simple-logger-master/dist/index.js"></script> 
 
-app.controller('LeafletController', [ '$scope', '$http', function($scope, $http) {
+app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wanderungen', function($scope, leafletEvents, $http, wanderungen) {
     var baselayers = {
                 googlestreets: {
                     name: 'Google Streets',
@@ -48,11 +48,122 @@ app.controller('LeafletController', [ '$scope', '$http', function($scope, $http)
         },
         layers: {
             baselayers: baselayers,
-	    overlays: {}
-	},
+	        overlays: {
+                wanderungen: {
+		            name:'Wanderungen',
+		            type: 'group',
+                    data: {},
+              		visible: false
+	            }
+            }
+        },
         markers: {},
-	paths: {}
+        paths: {},
+        events: {
+            map: {
+                enable: ['overlayadd', 'dblclick', 'click'],
+                logic: 'emit'
+            }
+        }
     });
+
+    $scope.eventDetected = "No events yet...";
+
+    var mapEvents = leafletEvents.getAvailableMapEvents();
+    for (var k in mapEvents) {
+        var eventName = 'leafletDirectiveMap.' + mapEvents[k];
+        $scope.$on(eventName, function(event) {
+            $scope.eventDetected = event.name;
+        });
+    }
+
+    var selection = [];
+    var isCompleted = true;
+
+    function isSelectionCompleted(point) {
+        if (selection.length > 1) {
+            var minLat = selection[0].lat; 
+            var maxLat = selection[0].lat; 
+            var minLng = selection[0].lng;
+            var maxLng = selection[0].lng;
+            for (var i = 1; i<selection.length; i++) {
+                if (selection[i].lat < minLat)
+                    minLat = selection[i].lat;
+                if (selection[i].lat > maxLat)
+                    maxLat = selection[i].lat;
+                if (selection[i].lng < minLng)
+                    minLng = selection[i].lng;
+                if (selection[i].lng > maxLng)
+                    maxLng = selection[i].lng;
+            }
+            var totalLat = Math.abs(maxLat - minLat);
+            var totalLng = Math.abs(maxLng - minLng);
+            var diffLat = Math.abs(selection[0].lat - point.lat);
+            var diffLng = Math.abs(selection[0].lng - point.lng);
+            console.log('total...:');
+            console.log(totalLat);
+            console.log(totalLng);
+            console.log('diff...:');
+            console.log(diffLat);
+            console.log(diffLng);
+            return (((diffLat / totalLat) < 0.05) && ((diffLng / totalLng) < 0.05));
+        }
+        else return false;
+    }
+
+    $scope.$on('leafletDirectiveMap.click', function(event, args) {
+        $scope.eventDetected = event;
+        console.log('click');
+        console.log(args.leafletEvent.latlng);
+        console.log(selection);
+        if (isCompleted) {
+            angular.extend($scope.paths, {
+                selection: {
+                    type: 'polyline',
+                    color: 'red',
+                    weight: 3,
+                    latlngs: {}
+                }
+            });
+            selection = [];
+            isCompleted = false;
+        }
+        console.log('$scope.paths.selection...');
+        console.log($scope.paths.selection);
+        var point = args.leafletEvent.latlng;
+        if (isSelectionCompleted(point)) {
+            console.log('selection complete');
+            angular.extend($scope.paths, {
+                selection_ready: {
+                    type: 'polygon',
+                    color: 'red',
+                   //  fillColor: 'red',
+                    weight: 3,
+                    latlngs: selection
+                }
+            });
+            console.log($scope.paths.selection);
+            isCompleted = true;
+        }
+        else {
+            console.log('selection not complete');
+            selection.push(point);
+            $scope.paths.selection.latlngs = selection;
+        }
+       // $scope.paths.polygon.latlng = selection;
+    });
+
+    $scope.$on('leafletDirectiveMap.dblclick', function(event, args) {
+        $scope.eventDetected = event;
+        console.log('dblclick');
+    });
+
+    $scope.$on('leafletDirectiveMap.overlayadd', function(event, args) {
+        $scope.eventDetected = event;
+        if (args.leafletEvent.name == 'Wanderungen') {
+            wanderungen.refresh($scope.paths);
+        }
+    });        
         
     $http.get("json/berliner-bezirke.geojson").success(function(data, status) {
 	angular.extend($scope.layers.overlays, {
@@ -87,7 +198,6 @@ app.controller('LeafletController', [ '$scope', '$http', function($scope, $http)
 		}	
 	    }
 	});
-	console.log(data);
     });
 
     $http.get("json/toiletten.geojson").success(function(data, status) {
@@ -144,43 +254,45 @@ app.controller('LeafletController', [ '$scope', '$http', function($scope, $http)
 	angular.extend($scope.markers, jsonObj );
     });
 
+/*
     $http.get("json/wanderungen.geojson").success(function(data, status) {
- 	angular.extend($scope.layers.overlays, {
- 	    wanderungen: {
-		name:'Wanderungen',
-		type: 'group',
-		data: data
-	    }
-	});
-	var json = '{ ';
-	console.log(data);
-	var i = 0;
-	data.features.forEach(function(feature)
-	{
-	    json += (i == 0 ? '': ', ');
-	    var index = 'wanderung_' + (++i);
-	    json += ('"' + index + '": {');
-	    json += '"layer": "wanderungen",';
-	    json += '"color": "cyan",';
-            json += '"weight": 3,';
-	    json += '"latlngs": [';
-	    console.log(feature);
-	    var isFirst = true;
-	    feature.geometry.coordinates[0].forEach(function(coords)
-	    {
-	    	json += (isFirst ? '': ', ');
-	    	isFirst = false;
-		json += ('{ "lat": ' + coords[1] + ', "lng": ' + coords[0] + '}');
+ 	    angular.extend($scope.layers.overlays, {
+ 	        wanderungen: {
+		    name:'Wanderungen',
+		    type: 'group',
+		    data: data
+	        }
 	    });
-	    json += ']}';
-	});
-	json += ' }';
-	console.log(json);
-	var jsonObj = JSON.parse(json);
-	console.log(jsonObj);
-	angular.extend($scope.paths, jsonObj );
-	console.log($scope.paths);
+	    var json = '{ ';
+	    console.log(data);
+	    var i = 0;
+	    data.features.forEach(function(feature)
+	    {
+	        json += (i == 0 ? '': ', ');
+	        var index = 'wanderung_' + (++i);
+	        json += ('"' + index + '": {');
+	        json += '"layer": "wanderungen",';
+	        json += '"color": "cyan",';
+            json += '"weight": 3,';
+	        json += '"latlngs": [';
+	        console.log(feature);
+	        var isFirst = true;
+	        feature.geometry.coordinates[0].forEach(function(coords)
+	        {
+	    	    json += (isFirst ? '': ', ');
+	    	    isFirst = false;
+		        json += ('{ "lat": ' + coords[1] + ', "lng": ' + coords[0] + '}');
+	        });
+	        json += ']}';
+	    });
+	    json += ' }';
+	    console.log(json);
+	    var jsonObj = JSON.parse(json);
+	    console.log(jsonObj);
+	    angular.extend($scope.paths, jsonObj );
+	    console.log($scope.paths);
     });
+*/
 
 }]);
 
