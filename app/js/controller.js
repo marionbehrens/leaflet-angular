@@ -64,6 +64,11 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
                 enable: ['overlayadd', 'dblclick', 'click'],
                 logic: 'emit'
             }
+        },
+        legend: {
+            position: 'bottomleft',
+            color: [],
+            labels: []
         }
     });
 
@@ -100,12 +105,6 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
             var totalLng = Math.abs(maxLng - minLng);
             var diffLat = Math.abs(selection[0].lat - point.lat);
             var diffLng = Math.abs(selection[0].lng - point.lng);
-            console.log('total...:');
-            console.log(totalLat);
-            console.log(totalLng);
-            console.log('diff...:');
-            console.log(diffLat);
-            console.log(diffLng);
             return (((diffLat / totalLat) < 0.05) && ((diffLng / totalLng) < 0.05));
         }
         else return false;
@@ -113,9 +112,6 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
 
     $scope.$on('leafletDirectiveMap.click', function(event, args) {
         $scope.eventDetected = event;
-        console.log('click');
-        console.log(args.leafletEvent.latlng);
-        console.log(selection);
         if (isCompleted) {
             angular.extend($scope.paths, {
                 selection: {
@@ -128,8 +124,6 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
             selection = [];
             isCompleted = false;
         }
-        console.log('$scope.paths.selection...');
-        console.log($scope.paths.selection);
         var point = args.leafletEvent.latlng;
         if (isSelectionCompleted(point)) {
             console.log('selection complete');
@@ -146,7 +140,6 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
             isCompleted = true;
         }
         else {
-            console.log('selection not complete');
             selection.push(point);
             $scope.paths.selection.latlngs = selection;
         }
@@ -163,7 +156,17 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
         if (args.leafletEvent.name == 'Wanderungen') {
             wanderungen.refresh($scope.paths);
         }
-    });        
+        else if (args.leafletEvent.name == 'Toiletten') {
+            console.log('Toiletten-Layer added.');
+	        angular.extend($scope, {
+                legend: {
+                    colors: [ 'red', 'green' ],
+                    labels: [ 'kostenpflichtig', 'nicht kostenpflichtig' ]
+                }
+            });
+            console.log($scope.legend);
+        }
+    });     
         
     $http.get("json/berliner-bezirke.geojson").success(function(data, status) {
 	angular.extend($scope.layers.overlays, {
@@ -219,6 +222,7 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
 	    json += '"layer": "toiletten",';
 	    json += ('"lat": ' + feature.geometry.coordinates[0] + ',');
 	    json += ('"lng": ' + feature.geometry.coordinates[1] + ',');
+	    json += ('"color": "' + toilettenColor(feature.properties.data.benutzung) + '",');
 	    json += ('"message": "' +  feature.properties.title + '<br/>' + feature.properties.data.benutzung + '<br/>Öffnungszeiten: ' + feature.properties.data.oeffnungszeiten + '"');
 	    json += ' }';
 	});
@@ -226,6 +230,17 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
 	var jsonObj = JSON.parse(json);
 	angular.extend($scope.markers, jsonObj );
     });
+
+    var toilettenColor = function (benutzung) {
+        console.log("benutzung");
+        console.log(benutzung);
+        switch(benutzung) {
+            case 'kostenpflichtig': return 'red';
+            case 'kostenfrei': return 'green';
+            case 'auf Nachfrage': return 'orange';
+            default: return 'yellow';
+        }
+    }
 
     $http.get("json/kitas.geojson").success(function(data, status) {
  	angular.extend($scope.layers.overlays, {
@@ -253,46 +268,6 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
 	var jsonObj = JSON.parse(json);
 	angular.extend($scope.markers, jsonObj );
     });
-
-/*
-    $http.get("json/wanderungen.geojson").success(function(data, status) {
- 	    angular.extend($scope.layers.overlays, {
- 	        wanderungen: {
-		    name:'Wanderungen',
-		    type: 'group',
-		    data: data
-	        }
-	    });
-	    var json = '{ ';
-	    console.log(data);
-	    var i = 0;
-	    data.features.forEach(function(feature)
-	    {
-	        json += (i == 0 ? '': ', ');
-	        var index = 'wanderung_' + (++i);
-	        json += ('"' + index + '": {');
-	        json += '"layer": "wanderungen",';
-	        json += '"color": "cyan",';
-            json += '"weight": 3,';
-	        json += '"latlngs": [';
-	        console.log(feature);
-	        var isFirst = true;
-	        feature.geometry.coordinates[0].forEach(function(coords)
-	        {
-	    	    json += (isFirst ? '': ', ');
-	    	    isFirst = false;
-		        json += ('{ "lat": ' + coords[1] + ', "lng": ' + coords[0] + '}');
-	        });
-	        json += ']}';
-	    });
-	    json += ' }';
-	    console.log(json);
-	    var jsonObj = JSON.parse(json);
-	    console.log(jsonObj);
-	    angular.extend($scope.paths, jsonObj );
-	    console.log($scope.paths);
-    });
-*/
 
 }]);
 
