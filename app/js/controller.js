@@ -72,6 +72,8 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
         }
     });
 
+    $scope.workmodus = "none";
+
     $scope.eventDetected = "No events yet...";
 
     var mapEvents = leafletEvents.getAvailableMapEvents();
@@ -111,7 +113,10 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
     }
 
     $scope.$on('leafletDirectiveMap.click', function(event, args) {
+	console.log(event);
         $scope.eventDetected = event;
+	console.log($scope.workmodus);
+	if ($scope.workmodus === "polygon") {
         if (isCompleted) {
             angular.extend($scope.paths, {
                 selection: {
@@ -138,11 +143,13 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
             });
             console.log($scope.paths.selection);
             isCompleted = true;
+	    $scope.workmodus = "none";
         }
         else {
             selection.push(point);
             $scope.paths.selection.latlngs = selection;
         }
+	}
        // $scope.paths.polygon.latlng = selection;
     });
 
