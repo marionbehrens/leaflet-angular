@@ -270,4 +270,3 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
     });
 
 }]);
-
