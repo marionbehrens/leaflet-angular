@@ -67,7 +67,7 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
         paths: {},
         events: {
             map: {
-                enable: ['overlayadd', 'dblclick', 'click'],
+                enable: ['overlayadd', 'mousemove', 'mouseup', 'dblclick'],
                 logic: 'emit'
             }
         },
@@ -82,13 +82,15 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
 
     $scope.eventDetected = "No events yet...";
 
+    /*
     var mapEvents = leafletEvents.getAvailableMapEvents();
     for (var k in mapEvents) {
         var eventName = 'leafletDirectiveMap.' + mapEvents[k];
         $scope.$on(eventName, function(event) {
-            $scope.eventDetected = event.name;
+            $scope.eventDetected += " - " + event.name;
         });
     }
+    */
 
     var selection = [];
     var isCompleted = true;
@@ -118,10 +120,23 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
         else return false;
     }
 
-    $scope.$on('leafletDirectiveMap.click', function(event, args) {
-	console.log(event);
-        $scope.eventDetected = event;
-	console.log($scope.workmodus);
+    $scope.$on('leafletDirectiveMap.mousemove', function(event, args) {
+	if (($scope.workmodus === "polygon") && (!isCompleted) && (selection.length > 0)) {
+	    var lastPoint = selection[selection.length - 1];
+            var currPosition = args.leafletEvent.latlng;
+            angular.extend($scope.paths, {
+                mousemove: {
+                    type: 'polyline',
+                    color: 'red',
+                    weight: 3,
+                    latlngs: [lastPoint, currPosition]
+                }
+            });
+        }
+    });
+
+    $scope.$on('leafletDirectiveMap.mouseup', function(event, args) {
+        $scope.eventDetected += "mouseup";
 	if ($scope.workmodus === "polygon") {
         if (isCompleted) {
             angular.extend($scope.paths, {
@@ -160,12 +175,12 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
     });
 
     $scope.$on('leafletDirectiveMap.dblclick', function(event, args) {
-        $scope.eventDetected = event;
+        $scope.eventDetected += " dblclick";
         console.log('dblclick');
     });
 
     $scope.$on('leafletDirectiveMap.overlayadd', function(event, args) {
-        $scope.eventDetected = event;
+        $scope.eventDetected += " overlayadd";
         if (args.leafletEvent.name == 'Wanderungen') {
             wanderungen.refresh($scope.paths);
         }
