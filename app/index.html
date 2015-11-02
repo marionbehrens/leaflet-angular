@@ -17,6 +17,7 @@
     <script src="./js/controller.js"></script>
     <script src="./js/wanderungen.js"></script>
     <script src="./js/service.js"></script>
+    <script src="./js/logic.js"></script>
 
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css"></link>
     <link rel="stylesheet" href="./css/main.css"></link>
@@ -29,6 +30,12 @@
     	<button ng-click="workmodus='polygon'">Make selection</button>
         <ul>
             <li><strong ng-bind="eventDetected"></strong> event caught in listener.</li>
+        </ul>
+
+        <ul>
+            <li ng-repeat="marker in selectedMarkers">
+          	<p>{{marker.title}}</p>
+            </li>
         </ul>
 	</div>
     </body>

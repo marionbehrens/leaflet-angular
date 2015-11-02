@@ -82,6 +82,8 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
 
     $scope.eventDetected = "No events yet...";
 
+    $scope.selectedMarkers = [];
+
     /*
     var mapEvents = leafletEvents.getAvailableMapEvents();
     for (var k in mapEvents) {
@@ -94,6 +96,27 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
 
     var selection = [];
     var isCompleted = true;
+
+    function isPointInSelection(point) {
+        var x = point.lng, y = point.lat;
+        var inside = false;
+        for (var i = 0, j = selection.length - 1; i < selection.length; j = i++) {
+            var xi = selection[i].lng, yi = selection[i].lat;
+            var xj = selection[j].lng, yj = selection[j].lat;
+            var intersect = ((yi > y) != (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
+            if (intersect) inside = !inside;
+        }
+        return inside;
+    };
+
+    function listPointsInSelection() {
+	angular.forEach($scope.markers, function(marker, key) {
+	    console.log(marker);
+            if (isPointInSelection(marker)) {
+		$scope.selectedMarkers.push(marker);
+	    }
+        });
+    }
 
     function isSelectionCompleted(point) {
         if (selection.length > 1) {
@@ -148,6 +171,7 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
                 }
             });
             selection = [];
+	    $scope.selectedMarkers = [];
             isCompleted = false;
         }
         var point = args.leafletEvent.latlng;
@@ -165,6 +189,7 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
             console.log($scope.paths.selection);
             isCompleted = true;
 	    $scope.workmodus = "none";
+	    listPointsInSelection();
         }
         else {
             selection.push(point);
@@ -232,6 +257,7 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
 	    isFirst = false;
 	    json += ('"' + index + '": {');
 	    json += '"layer": "kitas",';
+	    json += ('"title": "' + feature.properties.data.name_der_kindertagespflegestelle + '",');
 	    json += ('"lat": ' + feature.geometry.coordinates[0] + ',');
 	    json += ('"lng": ' + feature.geometry.coordinates[1] + ',');
 	    json += ('"message": "' +  feature.properties.title + '<br/>' + feature.properties.description.split('"').join('\\"') + '"');
