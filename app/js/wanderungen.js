@@ -1,5 +1,6 @@
 angular.module('wanderungen-service', []).factory('wanderungen', ['$http', function($http) {
 
+    // $scope.paths
     var refresh = function(destObj) {
         return $http.get("json/wanderungen.geojson").success(function(data, status) {
             var json = '{ ';

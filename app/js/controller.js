@@ -1,6 +1,6 @@
-var app = angular.module('leafletApp', ['leaflet-directive', 'wanderungen-service']);    // ["leaflet-directive"] <script src="../../angular-simple-logger-master/dist/index.js"></script> 
+var app = angular.module('leafletApp', ['leaflet-directive', 'wanderungen-service', 'toiletten-service']);    // ["leaflet-directive"] <script src="../../angular-simple-logger-master/dist/index.js"></script> 
 
-app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wanderungen', function($scope, leafletEvents, $http, wanderungen) {
+app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wanderungen', 'toiletten', function($scope, leafletEvents, $http, wanderungen, toiletten) {
     var baselayers = {
                 googlestreets: {
                     name: 'Google Streets',
@@ -48,13 +48,19 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
         },
         layers: {
             baselayers: baselayers,
-	        overlays: {
+	    overlays: {
                 wanderungen: {
-		            name:'Wanderungen',
-		            type: 'group',
+		    name:'Wanderungen',
+		    type: 'group',
                     data: {},
-              		visible: false
-	            }
+              	    visible: false
+	        },
+ 	        toiletten: {
+		    name:'Toiletten',
+		    type: 'group',
+		    data: {},
+                    visible: false
+                }
             }
         },
         markers: {},
@@ -157,6 +163,7 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
             wanderungen.refresh($scope.paths);
         }
         else if (args.leafletEvent.name == 'Toiletten') {
+            toiletten.refresh($scope.markers);
             console.log('Toiletten-Layer added.');
 	        angular.extend($scope, {
                 legend: {
@@ -185,62 +192,6 @@ app.controller('LeafletController', [ '$scope', 'leafletEvents', '$http', 'wande
 	    }
 	});
     });
-        
-    $http.get("json/heatmap.json").success(function(data, status) {
-	angular.extend($scope.layers.overlays, {
-  	    heatmap: {
-      		name: "Heat Map",
-      		type: "webGLHeatmap",
-      		data: data,
-      		visible: true,
-      		layerParams: {},
-      		layerOptions: {
-		    size: 20, // in meter
-		    opacity: 0.8, // 1 = no opacity, 0 = invisible
-		    autoresize: true
-		}	
-	    }
-	});
-    });
-
-    $http.get("json/toiletten.geojson").success(function(data, status) {
- 	angular.extend($scope.layers.overlays, {
- 	    toiletten: {
-		name:'Toiletten',
-		type: 'group',
-		data: data
-	    }
-	});
-	var json = '{ ';
-	var isFirst = true;
-	data.features.forEach(function(feature)
-	{
-	    var index = 'toilet_' + feature.properties.data.id;
-	    json += (isFirst ? '': ', ');
-	    isFirst = false;
-	    json += ('"' + index + '": {');
-	    json += '"layer": "toiletten",';
-	    json += ('"lat": ' + feature.geometry.coordinates[0] + ',');
-	    json += ('"lng": ' + feature.geometry.coordinates[1] + ',');
-	    json += ('"color": "' + toilettenColor(feature.properties.data.benutzung) + '",');
-	    json += ('"message": "' +  feature.properties.title + '<br/>' + feature.properties.data.benutzung + '<br/>Öffnungszeiten: ' + feature.properties.data.oeffnungszeiten + '"');
-	    json += ' }';
-	});
-	json += ' }';
-	var jsonObj = JSON.parse(json);
-	angular.extend($scope.markers, jsonObj );
-    });
-
-    var toilettenColor = function (benutzung) {
-        console.log("benutzung");
-        console.log(benutzung);
-        switch(benutzung) {
-            case 'kostenpflichtig': return 'red';
-            case 'kostenfrei': return 'green';
-            case 'auf Nachfrage': return 'orange';
-            default: return 'yellow';
-        }
-    }
 
     $http.get("json/kitas.geojson").success(function(data, status) {
  	angular.extend($scope.layers.overlays, {
